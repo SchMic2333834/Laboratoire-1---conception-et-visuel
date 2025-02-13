@@ -12,48 +12,37 @@
 
 </head>
 <body>
-
     <nav class="navbar navbar-expand-md navbar-dark py-0 d-flex">
       <div class="py-0 d-flex flex-grow-1 flex-md-grow-0">
-        <a class="navbar-brand d-flex align-items-center justify-content-center" style="width: 300px !important;" href="#">
-            <img class="img-fluid" src="images/logo.png" alt="uwu" style="height: 150px; width: 250px; object-fit: cover;">
+        <a class="navbar-brand d-flex align-items-center justify-content-center w-100;" href="#">
+            <img class="img-fluid" src="images/logo.png" alt="uwu">
         </a>
         <div class="d-flex flex-grow-1 flex-md-grow-0">
           <button class="navbar-toggler w-100 rounded-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-        </div>
-        
-      </div>
-          
-      <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent" style="height: 160px;">
+        </div>       
+      </div>        
+      <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto d-flex justify-content-evenly align-items-center w-100 h-100">
           <li class="nav-item active w-100 h-100"><a class="nav-link h-100 d-flex align-items-center justify-content-center" href="menu1.html">Menu1</a></li>
           <li class="nav-item w-100 h-100"><a class="nav-link h-100 d-flex align-items-center justify-content-center" href="menu2.html">Menu2</a></li>
           <li class="nav-item w-100 h-100"><a class="nav-link h-100 d-flex align-items-center justify-content-center" href="menu3.html">Menu3</a></li>
           <li class="nav-item w-100 h-100"><a class="nav-link h-100 d-flex align-items-center justify-content-center" href="menu4.html">Menu4</a></li>
-          <li class="nav-item w-100 h-100"><a class=" nav-link h-100 d-flex align-items-center justify-content-center" href="#"><img src="images/person-circle.svg" alt="uwu2" style="height: 70px; width: 70px;"></a></li>
-        </ul>
-        
+          <li class="nav-item w-100 h-100"><a class=" nav-link h-100 d-flex align-items-center justify-content-center" href="#"><img src="images/person-circle.svg" alt="uwu2" id="person-circle"></a></li>
+        </ul>       
       </div>
-
-      
     </nav>
-    <form class="container my-4">
+
+    <form class="container my-4 px-0">
       <div class="row g-3 align-items-center mx-auto">
-        <!-- Search Input -->
         <div class="col-12 col-md-6 order-1">
-          <input type="search" 
-                 class="form-control" 
-                 placeholder="Rechercher" 
-                 aria-label="Search">
+          <input type="search" class="form-control" placeholder="Rechercher" aria-label="Search">
         </div>
-    
-        <!-- Sort Section -->
         <div class="col-12 col-md-6 order-2">
           <div class="d-flex align-items-center justify-content-between justify-content-md-end gap-2">
             <span class="text-nowrap me-auto me-md-0">Trier par:</span>
-            <select class="form-select flex-shrink-1" style="max-width: 200px;">
+            <select class="form-select flex-shrink-1 w-50">
               <option selected>Selectionner</option>
               <option value="1">Nom</option>
               <option value="2">Prix</option>
@@ -63,6 +52,7 @@
         </div>
       </div>
     </form>
+
     <div class="container d-flex flex-wrap row-cols-1 row-cols-md-3">
       <div class="col mb-4">
         <div class="card h-100 mx-2">
