@@ -33,6 +33,10 @@ nav a img {
   height: 160px !important;
 }
 
+.navbar .show {
+  height: 100% !important;
+}
+
 .card-title {
   color: #eeeeee;
   background-color: #222831;
